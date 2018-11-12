@@ -1,0 +1,104 @@
+body{
+    background-image: url(sec.jpg);
+    background-size:  cover;       
+}
+
+
+.app {
+    width: 50%;
+    margin: 6% 2%;
+    background-color: rgba(0, 0, 0, 0.431);
+    border: white 1px solid;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.inp{
+    display: flex; 
+    flex-direction: row;
+    width: 50%;
+    margin: 0% auto;
+}
+
+.inp h4{
+    font-size: 20px;
+}
+
+.inp input{
+    border: white solid 1px; 
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: -30px;
+    box-shadow: 1px 1px 2px white;
+}
+
+.app button {
+    width: 20%;
+    font-size: 14px;
+    padding: 5px;
+    margin: 40px auto;
+}
+
+.app h3 {
+    border: 1px solid rgb(156, 155, 155);
+    font-size: 16px;
+    padding: 15px;
+}
+
+.app h4 {
+    width: 150px;
+    margin: 2px 0px;    
+    font-weight: 100;
+}
+
+.app h2{
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.disp{
+    display: flex; 
+    flex-direction: row;
+    width: 100%; 
+    margin: 0% 30%;
+}
+
+.disp h4:first-child{
+    border-right: 1px solid white;
+}
+
+.disp h4:last-child{
+    margin-left: 50px;
+}
+
+button{
+    border: white solid 1px; 
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px white;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    body{
+        background-image: linear-gradient(rgb(0,40,58),rgb(0,93,131),rgb(21,131,141), rgb(198,27,122));
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .app{
+        width: 90%;
+    }
+
+    }
