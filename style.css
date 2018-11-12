@@ -97,6 +97,29 @@ button:hover{
         background-repeat: no-repeat;
         width: 100%;
     }
+    .inp{
+        flex-direction: column;
+    }
+
+    .disp{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 40%;
+    }
+
+    .disp h4:first-child{
+        border-right: none;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+    }
+    .disp h4:last-child{
+        margin-bottom: 20px;
+        margin-left: 0%;
+        text-align: center;
+    }
+
     .app{
         width: 90%;
     }
